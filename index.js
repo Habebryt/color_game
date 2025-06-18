@@ -20,9 +20,9 @@ var colorBoxes = [color1,color2,color3,color4,color5,color6,color7,color8,color9
 // Game variables
 var correctColor = "";
 var correctAnswer = 0;
-var currentLevel = 3; // Start with medium (6 boxes)
+var currentLevel = 3; // Start with Easy (3 boxes)
 
-// Function to generate random RGB color
+// Math Function to generate random RGB color
 function makeRandomColor() {
   var r = Math.floor(Math.random() * 256);
   var g = Math.floor(Math.random() * 256);
